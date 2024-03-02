@@ -39,7 +39,7 @@ export function App() {
             <label className="font-main text-default-arslibri font-regular text-[1.2rem]" htmlFor="">Senha:</label>
             <div className='flex items-center bg-input-arslibri rounded-sm outline-none h-10 w-4/5 md:w-64 focus:border-b-2 focus:bg-transparent focus:border-golden-arslibri transition-all duration-500'>
               <input className="text-default-arslibri text-xl text-center leading-6  focus:text-default-arslibri outline-none w-full h-full bg-transparent px-3" id='password' type={viewTextPassword} />
-              <button onClick={handleViewPassword} className='pr-2 transition-all duration-700'>
+              <button onClick={handleViewPassword} className='pr-2 transition-all duration-700  outline-none'>
                 {viewPassword ? (
                   <EyeOff 
                     color='#DBC96C'
